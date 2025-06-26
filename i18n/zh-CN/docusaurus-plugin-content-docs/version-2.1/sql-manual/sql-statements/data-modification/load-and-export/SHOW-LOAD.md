@@ -106,7 +106,7 @@ SHOW LOAD
     SHOW LOAD FROM example_db ORDER BY LoadStartTime DESC limit 10 offset 5;
     ```
     
-6. 小批量导入是查看导入状态的命令
+6. 小批量导入时查看导入状态的命令
     
     ```text
     curl --location-trusted -u {user}:{passwd} http://{hostname}:{port}/api/{database}/_load_info?label={labelname}
